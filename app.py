@@ -510,8 +510,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         if inPuTMsG in ("dev"):
                             uid = response.Data.uid
                             chat_id = response.Data.Chat_ID
-                            message = '/d <uid1> <uid2>... <emoteid> /f <uid1> <uid2>... <emoteid> for fast emote'                               
-                                        
+                            message = '/d <uid1> <uid2>... <emoteid> /f <uid1> <uid2>... <emoteid> for fast emote'                                
                                     else:
                                         try:
                                             await SEndPacKeT(whisper_writer, online_writer, 'ChaT', P)
